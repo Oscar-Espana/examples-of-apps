@@ -8,9 +8,12 @@ export default function Home() {
     <div className="container mx-auto py-10 px-4">
       <h1 className="text-center text-4xl">Aplicaciones de prueba</h1>
       <h2 className="font-medium text-xl mb-5">Enlaces de páginas:</h2>
-      <ul>
+      <ul className="flex flex-col gap-3">
         <li>
           <Link href="/go-js">Go JS</Link>
+        </li>
+        <li>
+          <Link href="/photo">Take photo</Link>
         </li>
       </ul>
     </div>
